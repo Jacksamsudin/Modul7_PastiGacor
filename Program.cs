@@ -11,6 +11,9 @@ namespace Modul7_PastiGacor
 
             Console.WriteLine();
 
+            Watchlist_103022400138 watchlist = new Watchlist_103022400138();
+
+            watchlist.ReadJSON();
         }
     }
 }
