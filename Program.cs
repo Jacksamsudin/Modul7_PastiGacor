@@ -1,19 +1,19 @@
-﻿using System.Text.Json;
-namespace Modul7_PastiGacor
+﻿// See https://aka.ms/new-console-template for more information
+using Modul7_PastiGacor;
+
+
+public class Program
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            FilmFavorit_103022400138 filmFavorit = new FilmFavorit_103022400138();
-            
-            filmFavorit.ReadJSON();
+      filmFavorite_Rifki film = new filmFavorite_Rifki();
 
-            Console.WriteLine();
+        film.ReadJson();
 
-            Watchlist_103022400138 watchlist = new Watchlist_103022400138();
-
-            watchlist.ReadJSON();
-        }
+        WatchList watchList = new WatchList();
+        watchList.ReadJson();
     }
+    
+        
+    
 }
