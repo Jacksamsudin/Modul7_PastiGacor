@@ -1,2 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using Modul7_PastiGacor;
+
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+      filmFavorite_Rifki film = new filmFavorite_Rifki();
+
+        film.ReadJson();
+    }
+}
