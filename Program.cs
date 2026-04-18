@@ -9,5 +9,11 @@ public class Program
       filmFavorite_Rifki film = new filmFavorite_Rifki();
 
         film.ReadJson();
+
+        WatchList watchList = new WatchList();
+        watchList.ReadJson();
     }
+    
+        
+    
 }
