@@ -8,8 +8,15 @@ namespace Modul7_PastiGacor
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=== SOAL 1 ===");
             FilmFavorit_Tegar filmFavorit = new FilmFavorit_Tegar();
             filmFavorit.readJson();
-        }
+
+            Console.WriteLine();
+            Console.WriteLine("=== SOAL 2 ===");
+
+            WatchList_Tegar watchList = new WatchList_Tegar();
+            watchList.ReadJson();
+        }   
     }
 }
